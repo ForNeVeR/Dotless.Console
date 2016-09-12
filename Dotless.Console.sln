@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotless.Console", "src\Dotless.Console\Dotless.Console.csproj", "{B03322FA-866B-4E12-8388-A72378ECE814}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B3F64E9B-82D1-4571-8616-19D01F72FAF2}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		License.md = License.md
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{16096C5A-42D5-4EED-8095-EF0D9F2935E0}"
+	ProjectSection(SolutionItems) = preProject
+		samples\body.less = samples\body.less
+		samples\main.less = samples\main.less
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B03322FA-866B-4E12-8388-A72378ECE814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B03322FA-866B-4E12-8388-A72378ECE814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B03322FA-866B-4E12-8388-A72378ECE814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B03322FA-866B-4E12-8388-A72378ECE814}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{16096C5A-42D5-4EED-8095-EF0D9F2935E0} = {B3F64E9B-82D1-4571-8616-19D01F72FAF2}
+	EndGlobalSection
+EndGlobal
